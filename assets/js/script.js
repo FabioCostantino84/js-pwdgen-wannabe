@@ -15,3 +15,8 @@ const userSurname = prompt('type your surname');
 console.log(userSurname);
 
 document.getElementById('surname').innerHTML = userSurname;
+
+const userFavoriteColour = prompt('type your favorite colour');
+console.log(userFavoriteColour);
+
+document.getElementById('favorite_colour').innerHTML = userFavoriteColour;
