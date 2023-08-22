@@ -7,16 +7,11 @@ nomecognomecolorepreferito23  */
 
 
 const userName = prompt('type your name');
-console.log(userName);
-
-document.getElementById('name').innerHTML = userName;
 
 const userSurname = prompt('type your surname');
-console.log(userSurname);
-
-document.getElementById('surname').innerHTML = userSurname;
 
 const userFavoriteColour = prompt('type your favorite colour');
-console.log(userFavoriteColour);
 
-document.getElementById('favorite_colour').innerHTML = userFavoriteColour;
+console.log(userName+userSurname+userFavoriteColour+'23');
+
+document.getElementById('password').innerHTML = userName+userSurname+userFavoriteColour+'23';
