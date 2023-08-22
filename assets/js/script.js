@@ -11,3 +11,7 @@ console.log(userName);
 
 document.getElementById('name').innerHTML = userName;
 
+const userSurname = prompt('type your surname');
+console.log(userSurname);
+
+document.getElementById('surname').innerHTML = userSurname;
