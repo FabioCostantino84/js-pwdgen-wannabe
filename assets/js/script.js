@@ -12,6 +12,8 @@ const userSurname = prompt('type your surname');
 
 const userFavoriteColour = prompt('type your favorite colour');
 
-console.log(userName+userSurname+userFavoriteColour+'23');
+const generatorRandomNumber = Math.floor((Math.random() * 100) +23);
 
-document.getElementById('password').innerHTML = userName+userSurname+userFavoriteColour+'23';
+console.log(userName+userSurname+userFavoriteColour+generatorRandomNumber);
+
+document.getElementById('password').innerHTML = userName+userSurname+userFavoriteColour+generatorRandomNumber;
