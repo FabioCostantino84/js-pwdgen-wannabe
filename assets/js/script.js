@@ -3,7 +3,14 @@ poi chiedi il suo cognome,
 poi chiedi il suo colore preferito 
 ed infine scrivi in pagina (non solo in console) il risultato,
 che va formattato in questo modo: 
-nomecognomecolorepreferito23  */ 
+nomecognomecolorepreferito23
+
+Dopo aver raccolto tutti i dettagli dell’utente, 
+chiedete anche un ulteriore valore numerico 
+- pensiamolo come una “chiave”.
+Questa “chiave” dovrà essere sommata, 
+con le giuste operazioni nel codice, al numero 23 
+(o qualsiasi numero che avete utilizzato nella password).*/ 
 
 
 const userName = prompt('type your name');
