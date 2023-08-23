@@ -24,3 +24,4 @@ const generatorRandomNumber = Math.floor((Math.random() * 100) +23);
 console.log(userName+userSurname+userFavoriteColour+generatorRandomNumber);
 
 document.getElementById('password').innerHTML = userName+userSurname+userFavoriteColour+generatorRandomNumber;
+
